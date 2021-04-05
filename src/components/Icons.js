@@ -23,7 +23,7 @@ const Icons = (props) => {
 
   return (
     <AvatarGroup spacing={4}>
-      
+  
       <Avatar className="grow">
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />

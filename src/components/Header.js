@@ -15,7 +15,7 @@ const Header = () => {
       <Jumbotron className="shadow-lg rounded border-dark mt-5">
         <Container fluid>
           <Row>
-            <Col>
+            <Col id="aboutme">
               <h1>About me</h1>
               <h5>
                   Kristina Iankovskaia is a Corporate Tax Accountant working at PwC. Kristina graduated from Brooklyn College with a bachelor's degree in Accounting in 2020. During her time at PwC, she met many professionals who motivated her and came to appreciate the importance and implementation of technology in the accounting process. She is am currently enrolled in an intensive Full Stack Coding Bootcamp at Columbia Engineering. Her end goal is to learn a valuable set of skills while enhancing my overall abilities in attention to detail and problem solving.Kristina is a firm believer that every day one must take steps to learn, grow and make positive actions towards self development. She enjoy the process of learning through experience because she knows that it will help her achieve career and life goals.
