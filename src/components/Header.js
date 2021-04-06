@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { AvatarGroup } from "@material-ui/lab";
 
@@ -12,13 +13,15 @@ import Myphoto from "../assets/img/kristina.jpg";
 const Header = () => {
   return (
     <>
-      <Jumbotron className="shadow-lg rounded border-dark mt-5">
-        <Container fluid>
+      <Jumbotron >
+      
           <Row>
             <Col id="aboutme">
               <h1>About me</h1>
               <h5>
-                  Kristina Iankovskaia is a Corporate Tax Accountant working at PwC. Kristina graduated from Brooklyn College with a bachelor's degree in Accounting in 2020. During her time at PwC, she met many professionals who motivated her and came to appreciate the importance and implementation of technology in the accounting process. She is am currently enrolled in an intensive Full Stack Coding Bootcamp at Columbia Engineering. Her end goal is to learn a valuable set of skills while enhancing my overall abilities in attention to detail and problem solving.Kristina is a firm believer that every day one must take steps to learn, grow and make positive actions towards self development. She enjoy the process of learning through experience because she knows that it will help her achieve career and life goals.
+                  Kristina Iankovskaia is a Corporate Tax Accountant working at PwC. Kristina graduated from Brooklyn College with a bachelor's degree in Accounting in 2020. During her time at PwC, she met many professionals who motivated her and came to appreciate the importance and implementation of technology in the accounting process. She is am currently enrolled in an intensive Full Stack Coding Bootcamp at Columbia Engineering. Her end goal is to learn a valuable set of skills while enhancing my overall abilities in attention to detail and problem solving.
+                  <br>
+                  </br>Kristina is a firm believer that every day one must take steps to learn, grow and make positive actions towards self development. She enjoy the process of learning through experience because she knows that it will help her achieve career and life goals.
               </h5>
 
               <p>Resume:</p>
@@ -35,7 +38,7 @@ const Header = () => {
                 </Avatar>
               </AvatarGroup>
             </Col>
-            <Col xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Col>
               <Image
                 src={Myphoto}
                 alt="Kristina iankovskaia"
@@ -46,7 +49,7 @@ const Header = () => {
               />
             </Col>
           </Row>
-        </Container>
+ 
       </Jumbotron>
     </>
   );
