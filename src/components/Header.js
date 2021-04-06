@@ -12,12 +12,10 @@ import Myphoto from "../assets/img/kristina.jpg";
 
 const Header = () => {
   return (
-    <>
-      <Jumbotron >
-      
-          <Row>
+    <div className="jumbotron">
+          <Row >
             <Col id="aboutme">
-              <h1>About me</h1>
+              <h1 className="display-4">about me</h1>
               <h5>
                   Kristina Iankovskaia is a Corporate Tax Accountant working at PwC. Kristina graduated from Brooklyn College with a bachelor's degree in Accounting in 2020. During her time at PwC, she met many professionals who motivated her and came to appreciate the importance and implementation of technology in the accounting process. She is am currently enrolled in an intensive Full Stack Coding Bootcamp at Columbia Engineering. Her end goal is to learn a valuable set of skills while enhancing my overall abilities in attention to detail and problem solving.
                   <br>
@@ -49,9 +47,7 @@ const Header = () => {
               />
             </Col>
           </Row>
- 
-      </Jumbotron>
-    </>
+    </div>
   );
 };
 

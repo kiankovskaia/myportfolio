@@ -7,9 +7,6 @@ import {
   faInstagram,
   faLinkedin,
   faYoutube,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
 } from "@fortawesome/free-brands-svg-icons";
 
 

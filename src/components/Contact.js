@@ -11,6 +11,7 @@ const Contact = () => {
           <Row>Miami, FL</Row>
           <Row>+1 (347)-444-1697</Row>
           <Row>k.iankovskaia@gmail.com</Row>
+
         </Container>
     
     </>

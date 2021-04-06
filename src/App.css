@@ -6,6 +6,12 @@ body {
   background-color: #eae3c8 !important;
 }
 
+:root {
+  --primary-blue: #a1cae2;
+  --primary-dark: rgba(255,255,255,0)
+
+}
+
 /* logo */
 .logo {
   width: 3.5rem;
@@ -28,7 +34,18 @@ nav ul li {
   padding: 0 !important;
 }
 
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+
+}
+
 .mywrapper {
  padding-left: 50px !important;
  padding-right: 100px !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
 }
