@@ -1,22 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
   background-color: #eae3c8 !important;
+  text-align: center !important;
+}
+
+.jumboclass{
+border-radius: 10px !important;
+margin: 20px !important;
 }
 
 :root {
   --primary-blue: #a1cae2;
   --primary-dark: rgba(255,255,255,0)
-
 }
 
 /* logo */
-.logo {
+.logoname {
   width: 3.5rem;
+  font-family: 'Homemade Apple', cursive !important;
+  font-size: 25px !important;
 }
-
+.grey-color {
+  color: #868e96;
+}
 /* navbar */
 
 nav a.nav-link {
@@ -48,4 +58,11 @@ nav ul li {
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-blue);
+  
+}
+.styleavatar{
+ color: #1E90FF!important;
+}
+img {
+  margin: auto !important;
 }

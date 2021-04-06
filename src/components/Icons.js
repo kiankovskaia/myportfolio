@@ -19,25 +19,25 @@ const Icons = (props) => {
   } = props;
 
   return (
-    <AvatarGroup spacing={4}>
+    <AvatarGroup spacing={6}>
       <Avatar className="grow">
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon className="styleavatar" icon={faLinkedin} />
         </a>
       </Avatar>
       <Avatar className="grow">
         <a href={github} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon className="styleavatar" icon={faGithub} />
         </a>
       </Avatar>
       <Avatar className="grow">
         <a href={instagram} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon className="styleavatar" icon={faInstagram} />
         </a>
       </Avatar>
       <Avatar className="grow">
         <a href={youtube} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faYoutube} />
+          <FontAwesomeIcon className="styleavatar" icon={faYoutube} />
         </a>
       </Avatar>
     </AvatarGroup>

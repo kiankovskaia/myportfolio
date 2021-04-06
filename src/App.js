@@ -4,15 +4,15 @@ import Header from "./components/Header.js";
 import Navbar from "./components/Navbar.js";
 import Icons from "./components/Icons.js";
 import Contact from "./components/Contact.js";
-import Portfolio from "./components/Portfolio.js";
+import Greeting from "./components/Greeting.js"
 
 
 function App() {
   return (
     <div>
       <Navbar/>
+      <Greeting/>
       <Header/>
-      <Portfolio/>
       <Contact/>
       <Icons/>
     </div>
