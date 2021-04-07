@@ -8,6 +8,7 @@ import {
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Jumbotron, Row, Container, Col } from "react-bootstrap";
 
 
 const Icons = (props) => {
@@ -18,7 +19,13 @@ const Icons = (props) => {
     youtube = "https://www.youtube.com/channel/UCH9DO7WPnjLbuBHUSJ4FO2w"
   } = props;
 
-  return (
+  return ( 
+    <Jumbotron className="jumboclass jumbotron center"> 
+    <Col id="contactme" className="col-12">
+          <Row>Miami, FL</Row>
+          <Row>+1 (347)-444-1697</Row>
+          <Row>k.iankovskaia@gmail.com</Row>
+      </Col>
     <AvatarGroup spacing={6}>
       <Avatar className="grow">
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
@@ -41,6 +48,7 @@ const Icons = (props) => {
         </a>
       </Avatar>
     </AvatarGroup>
+    </Jumbotron>
   );
 };
 

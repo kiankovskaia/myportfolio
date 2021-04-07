@@ -1,20 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { AvatarGroup } from "@material-ui/lab";
-
 import { Avatar } from "@material-ui/core";
-
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Myphoto from "../assets/img/kristina.jpg";
 
 const Header = () => {
   return (
-    <div className="jumbotron jumboclass">
+    <Jumbotron className="jumboclass Container">
       <Row>
         <Col id="aboutme" className="col-9">
-          <h1 className="display-4">about me</h1>
+          <h2 className="display-5">about me</h2>
           <h5>
             Kristina Iankovskaia is a Corporate Tax Accountant working at PwC.
             Kristina graduated from Brooklyn College with a bachelor's degree in
@@ -56,7 +52,7 @@ const Header = () => {
           </Row>
         </Col>
       </Row>
-    </div>
+    </Jumbotron>
   );
 };
 
