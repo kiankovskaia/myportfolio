@@ -8,7 +8,7 @@ import Greeting from "./components/Greeting.js"
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar/>
       <Greeting/>
       <Header/>

@@ -2,15 +2,17 @@ import React from "react";
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Avatar } from "@material-ui/core";
+import { AvatarGroup } from "@material-ui/lab";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Myphoto from "../assets/img/kristina.jpg";
 
 const Header = () => {
   return (
     <Jumbotron className="jumboclass Container">
+       <h2 className="display-5">about me</h2>
       <Row>
         <Col id="aboutme" className="col-9">
-          <h2 className="display-5">about me</h2>
+         
           <h5>
             Kristina Iankovskaia is a Corporate Tax Accountant working at PwC.
             Kristina graduated from Brooklyn College with a bachelor's degree in
@@ -39,15 +41,16 @@ const Header = () => {
             />
           </Row>
           <Row>
-            <Avatar className="grow ">
+          <AvatarGroup><Avatar className="grow ">
               <a
                 href="https://drive.google.com/file/d/1lzuugxa59DucOl_2OS7nAsWYmAH6HEBb/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon className="styleavatar" icon={faFile} />
+                <FontAwesomeIcon className="styleavatar" icon={faFile}/>
               </a>
             </Avatar>
+            </AvatarGroup>
             <p>Resume</p>
           </Row>
         </Col>

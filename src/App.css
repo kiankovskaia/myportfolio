@@ -3,12 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 body {
-  font-family: "Roboto Condensed", sans-serif !important;
+ 
   background-image: url("/src/assets/img/backimg.jpg") !important;
   background-repeat: repeat;
   background-color: #eae3c8;
   text-align: center !important;
+  font-family: "Roboto Condensed", sans-serif !important;
+  text-align: justify !important;
 }
+
+
 
 .jumboclass {
   border-radius: 20px !important;
@@ -63,7 +67,9 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-blue);
 }
 .styleavatar {
-  color: #1e90ff !important;
+  color:black !important;
+
+  /* #1e90ff  */
 }
 img {
   margin: auto !important;
@@ -72,9 +78,14 @@ img {
 h2 {
   font-family: "Montserrat", sans-serif;
   color: black;
-}
-.center {
   text-align: center !important;
+}
+.centeredtext {
+  font-family: "Roboto Condensed", sans-serif !important;
+  color: black;
+  text-align: center !important;
+  color: white;
+  margin: 0 auto;
 }
 .grow {
   transition: all 0.2s ease-in-out;
@@ -82,4 +93,8 @@ h2 {
 
 .grow:hover {
   transform: scale(1.1);
+}
+p{
+  margin: 5px;
+  padding: 5px;
 }
