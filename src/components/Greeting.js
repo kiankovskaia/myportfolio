@@ -6,7 +6,7 @@ import { Jumbotron} from "react-bootstrap"
 function Greeting(){
 
 return (
-    <Jumbotron className="jumboclass centeredtext">
+<Jumbotron className=" centeredtext greeting-wraper">
 <h1>Hi, I'm Kristina Iankovskaia</h1>
 <p>I am {' '}
 
