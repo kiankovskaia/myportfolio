@@ -30,7 +30,7 @@ const Header = () => {
             goals.
           </h5>
         </Col>
-        <Col className="col-3">
+        <Col className="col-3" style={{ display: "inline-flex"}} >
           <Row>
             <Image
               src={Myphoto}
@@ -41,7 +41,7 @@ const Header = () => {
             />
           </Row>
           <Row>
-          <AvatarGroup><Avatar className="grow ">
+          <AvatarGroup><Avatar className="grow">
               <a
                 href="https://drive.google.com/file/d/1lzuugxa59DucOl_2OS7nAsWYmAH6HEBb/view?usp=sharing"
                 target="_blank"
@@ -50,7 +50,7 @@ const Header = () => {
                 <FontAwesomeIcon className="styleavatar" icon={faFile}/>
               </a>
             </Avatar>
-            </AvatarGroup>
+            </AvatarGroup >
             <p>Resume</p>
           </Row>
         </Col>

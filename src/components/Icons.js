@@ -19,12 +19,12 @@ const Icons = (props) => {
   } = props;
 
   return (
-    <Jumbotron className="jumboclass jumbotron">
+    <Jumbotron className="jumboclass jumbotron" > 
       <h2>let's connect</h2>
       <div id="contactme" className="centeredtext">
         Miami, FL ◉ +1 (347)-444-1697 ◉ k.iankovskaia@gmail.com
-      
-      <AvatarGroup className="centeredtext">
+      <br></br>
+      <AvatarGroup className="centeredtext" style={{ display: "inline-flex"}}>
         <Avatar className="grow">
           <a href={linkedin} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="styleavatar" icon={faLinkedin} />

@@ -16,9 +16,12 @@ body {
 
 .jumboclass {
   border-radius: 20px !important;
-  margin: 20px !important;
+  margin-top: 5px !important;
+  margin-left: 40px !important;
+  margin-right: 40px !important;
   background-color: #a1cae2 !important;
   color: white;
+ 
 }
 
 :root {
@@ -103,8 +106,14 @@ p{
   background-image: url("/src/assets/img/backgreeting.jfif") !important;
   position: relative;
   background-size: cover;
-  padding-bottom: 350px !important;
-  padding-top: 350px !important;
-  width:100%;
-  height: 40%;
+  padding-bottom: 260px !important;
+  padding-top: 260px !important;
+}
+
+.project-class{
+  border-radius: 20px !important;
+  background-color: #E8E8E8!important;
+  color: black;
+  margin: 0 auto !important;
+  margin-top: 15px !important;
 }
