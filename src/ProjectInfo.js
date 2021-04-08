@@ -19,30 +19,30 @@ const ProjectInfo = [
     },
   
     {
-        title: "",
-        img: "",
+        title: "Eat-da-burger",
+        img: "https://github.com/kiankovskaia/Eat-da-burger/raw/main/public/assets/demo.JPG",
         alt: "Logo",
-        deployedUrl: "",
-        description: "",
-        repo: "",
+        deployedUrl: "https://dry-basin-88411.herokuapp.com/",
+        description: "The burger logger app allows users to input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page - waiting to be devoured. ",
+        repo: "https://github.com/kiankovskaia/Eat-da-burger",
   
     },
     {
-        title: "",
-        img: "",
+        title: "Workout-Tracker",
+        img: "https://github.com/kiankovskaia/workout-tracker/raw/main/demo.JPG",
         alt: "Logo",
-        deployedUrl: "",
-        description: "",
-        repo: "",
+        deployedUrl: "https://workout-tracker-ki.herokuapp.com/",
+        description: "This tracker allows a user to enter exercises in a workout on a given day. It keeps data about name,type,weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it allows to track distance traveled.",
+        repo: "https://github.com/kiankovskaia/workout-tracker",
   
     },
     {
-        title: "",
-        img: "",
+        title: "Weather Dashboard",
+        img: "https://github.com/kiankovskaia/Weather_Dashboard/raw/main/assets/dashboard-demo.JPG",
         alt: "Logo",
-        deployedUrl: "",
-        description: "",
-        repo: "",
+        deployedUrl: "https://kiankovskaia.github.io/Weather_Dashboard/",
+        description: "The weather dashboard allows users to search for  weather forecast in the city. A user will be displayed  forecast for a week and the searched location will be automatically saved at the nav bar in a localstorage.",
+        repo: "https://github.com/kiankovskaia/Weather_Dashboard",
   
     },
   ];
